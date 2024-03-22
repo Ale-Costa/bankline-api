@@ -2,8 +2,11 @@ package com.dio.santander.bankline.api.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
 @Embeddable
 public class Conta {
 
