@@ -1,6 +1,6 @@
 package com.dio.santander.bankline.api.service;
 
-import com.dio.santander.bankline.api.dto.CorrentistaDTO;
+import com.dio.santander.bankline.api.dto.CorrentistaDto;
 import com.dio.santander.bankline.api.model.Conta;
 import com.dio.santander.bankline.api.model.Correntista;
 import com.dio.santander.bankline.api.repository.CorrentistaRepository;
@@ -13,7 +13,7 @@ import java.util.Date;
 public class CorrentistaService {
     @Autowired
     private CorrentistaRepository repository;
-    public void save(CorrentistaDTO correntistaDTO){
+    public void save(CorrentistaDto correntistaDTO){
         Correntista correntista = new Correntista();
         correntista.setCpf(correntistaDTO.getCpf());
         correntista.setNome(correntistaDTO.getNome());

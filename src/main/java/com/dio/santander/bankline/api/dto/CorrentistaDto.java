@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class CorrentistaDTO {
+public class CorrentistaDto {
     private String nome;
     private String cpf;
 }
